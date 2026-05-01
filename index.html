@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="de" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- ── Primary SEO ── -->
+
   <title>Mirko Kiesel — Industrial Design & Innovation Strategy, München</title>
   <meta name="description" content="Mirko Kiesel ist freiberuflicher Industrial Designer und Innovationsstratege in München. 20+ Jahre Erfahrung mit globalen Marken, Start-ups und nachhaltiger Produktentwicklung.">
   <meta name="author" content="Mirko Kiesel">
@@ -12,10 +14,12 @@
   <link rel="canonical" href="https://www.mirkokiesel.com/">
 
   <!-- ── Language ── -->
+
   <link rel="alternate" hreflang="de" href="https://www.mirkokiesel.com/">
   <link rel="alternate" hreflang="en" href="https://www.mirkokiesel.com/">
 
   <!-- ── Open Graph ── -->
+
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mirkokiesel.com/">
   <meta property="og:title" content="Mirko Kiesel — Industrial Design & Innovation Strategy">
@@ -24,11 +28,13 @@
   <meta property="og:locale:alternate" content="en_US">
 
   <!-- ── Twitter / X Card ── -->
+
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Mirko Kiesel — Industrial Design & Innovation Strategy">
   <meta name="twitter:description" content="Freiberuflicher Industrial Designer und Innovationsstratege in München.">
 
   <!-- ── Structured Data: Person + ProfessionalService ── -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -95,6 +101,7 @@
   </script>
 
   <!-- ── Fonts ── -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
@@ -303,7 +310,7 @@
     }
 
     /* ─────────────────────────────────────────
-       Responsive
+       Responsive — Mobile
     ───────────────────────────────────────── */
     @media (max-width: 680px) {
       .top-row {
@@ -312,10 +319,49 @@
       .monogram {
         --mono-size: clamp(3rem, 18vw, 5rem);
       }
+
+      /* ── h1: mehr Luft zwischen den Zeilen ── */
+      h1 {
+        line-height: 1.18;
+      }
+
+      /* ── Fließtext: größer + mehr Zeilenabstand gegen kollidierende Längen ── */
+      .subtext {
+        font-size: 1.05rem;
+        line-height: 1.9;
+      }
+
+      /* ── Detail-Labels: lesbarer ── */
+      .detail-label {
+        font-size: 0.7rem;
+        margin-bottom: 0.65rem;
+      }
+
+      /* ── Detail-Text: von ~0.8 rem auf 1 rem, Zeilenabstand lockerer ── */
+      .detail-text {
+        font-size: 1rem;
+        line-height: 1.85;
+      }
+
       .details {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 1.8rem;
       }
+
+      /* ── Footer-Text: ebenfalls anheben ── */
+      .footer-statement {
+        font-size: 1rem;
+        line-height: 1.85;
+      }
+
+      .footer-contact a {
+        font-size: 0.97rem;
+      }
+
+      .location {
+        font-size: 0.75rem;
+      }
+
       footer {
         grid-template-columns: 1fr;
         gap: 1.5rem;
@@ -325,95 +371,94 @@
       .location { justify-content: flex-start; }
     }
   </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <meta property="og:image" content="https://mirkokiesel.com/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+
 </head>
 
 <body>
   <div class="page">
 
-    <!-- ── Main content ── -->
-    <main>
-      <div class="top-row">
+```
+<!-- ── Main content ── -->
+<main>
+  <div class="top-row">
 
-        <!-- Monogram -->
-        <div class="monogram fade d0" aria-label="MK Monogramm">
-          <svg viewBox="0 0 70.87 70.87" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
-            <path d="M35.43,1.42c-18.79,0-34.02,15.23-34.02,34.02s15.23,34.02,34.02,34.02
-              s34.02-15.23,34.02-34.02S54.22,1.42,35.43,1.42z
-              M59.49,50.97c-0.13,0.27-0.4,0.44-0.71,0.44h-1.73c-0.24,0-0.47-0.11-0.61-0.29
-              L44.42,35.97h-4.56v14.67c0,0.43-0.35,0.77-0.77,0.77h-0.09h-1.08
-              c-0.43,0-0.77-0.35-0.77-0.77V25.95L27.05,50.93c-0.12,0.29-0.4,0.48-0.72,0.48h-1.25
-              c-0.32,0-0.6-0.19-0.72-0.48L14.3,26.23v24.4c0,0.43-0.35,0.77-0.77,0.77h-1.19
-              c-0.43,0-0.77-0.35-0.77-0.77v-30.4c0-0.43,0.35-0.77,0.77-0.77h1.75
-              c0.32,0,0.6,0.19,0.72,0.48l10.41,25.79v0.01l0.51,1.29l0.48-1.28
-              c0-0.01,0-0.01,0.01-0.03l10.45-25.79c0.12-0.29,0.4-0.48,0.72-0.48h0.53h1.08h0.09
-              c0.43,0,0.77,0.35,0.77,0.77v13h4.49l11.44-13.51c0.15-0.17,0.36-0.28,0.59-0.28h1.56
-              c0.31,0,0.57,0.17,0.71,0.45c0.13,0.28,0.08,0.6-0.11,0.83L46.81,34.55l12.57,15.59
-              C59.58,50.38,59.61,50.7,59.49,50.97z"/>
-          </svg>
-        </div>
+    <!-- Monogram -->
+    <div class="monogram fade d0" aria-label="MK Monogramm">
+      <svg viewBox="0 0 70.87 70.87" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+        <path d="M35.43,1.42c-18.79,0-34.02,15.23-34.02,34.02s15.23,34.02,34.02,34.02
+          s34.02-15.23,34.02-34.02S54.22,1.42,35.43,1.42z
+          M59.49,50.97c-0.13,0.27-0.4,0.44-0.71,0.44h-1.73c-0.24,0-0.47-0.11-0.61-0.29
+          L44.42,35.97h-4.56v14.67c0,0.43-0.35,0.77-0.77,0.77h-0.09h-1.08
+          c-0.43,0-0.77-0.35-0.77-0.77V25.95L27.05,50.93c-0.12,0.29-0.4,0.48-0.72,0.48h-1.25
+          c-0.32,0-0.6-0.19-0.72-0.48L14.3,26.23v24.4c0,0.43-0.35,0.77-0.77,0.77h-1.19
+          c-0.43,0-0.77-0.35-0.77-0.77v-30.4c0-0.43,0.35-0.77,0.77-0.77h1.75
+          c0.32,0,0.6,0.19,0.72,0.48l10.41,25.79v0.01l0.51,1.29l0.48-1.28
+          c0-0.01,0-0.01,0.01-0.03l10.45-25.79c0.12-0.29,0.4-0.48,0.72-0.48h0.53h1.08h0.09
+          c0.43,0,0.77,0.35,0.77,0.77v13h4.49l11.44-13.51c0.15-0.17,0.36-0.28,0.59-0.28h1.56
+          c0.31,0,0.57,0.17,0.71,0.45c0.13,0.28,0.08,0.6-0.11,0.83L46.81,34.55l12.57,15.59
+          C59.58,50.38,59.61,50.7,59.49,50.97z"/>
+      </svg>
+    </div>
 
-        <!-- Headline block -->
-        <div class="headline-block">
+    <!-- Headline block -->
+    <div class="headline-block">
 
-          <h1 class="fade d1">
-            Not more products,<br>
-            <em>but better consequences.</em>
-          </h1>
+      <h1 class="fade d1">
+        Not more products,<br>
+        <em>but better consequences.</em>
+      </h1>
 
-          <div class="rule fade d2"></div>
+      <div class="rule fade d2"></div>
 
-          <!-- GEO: Fließtext in dritter Person für Entitätserkennung -->
-          <p class="subtext fade d2">
-            Mirko Kiesel ist freiberuflicher Industrial Designer und Innovationsstratege
-            in München. Er entwickelt Produkte, Systeme und strategische Innovationsansätze
-            für Unternehmen, Start-ups und nachhaltige Entwicklungsvorhaben.
-          </p>
-
-          <div class="details fade d3">
-            <div>
-              <p class="detail-label">Schwerpunkte</p>
-              <p class="detail-text">Industrial Design, Product Strategy, User-Centered Innovation, Sustainable Systems, Venture Advisory.</p>
-            </div>
-            <div>
-              <p class="detail-label">Erfahrung</p>
-              <p class="detail-text">20+ Jahre mit globalen Marken, Gründerprojekten und interdisziplinären Beratungsmandaten in Consumer Electronics, Professional Goods, Mobility und Social Impact.</p>
-            </div>
-            <div>
-              <p class="detail-label">Referenzen</p>
-              <p class="detail-text">Vodafone, NEOMIND, IceStorage, Ziba, IDEO — von der Konzeptidee bis zur marktfähigen Umsetzung.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </main>
-
-    <!-- ── Footer ── -->
-    <footer class="fade d4">
-      <!-- Spacer aligns statement with headline column -->
-      <div class="footer-spacer" aria-hidden="true"></div>
-
-      <p class="footer-statement">
-        Verfügbar für ausgewählte Beratungs-,<br>
-        Innovations- und Designmandate.
+      <!-- GEO: Fließtext in dritter Person für Entitätserkennung -->
+      <p class="subtext fade d2">
+        Mirko Kiesel ist freiberuflicher Industrial Designer und Innovationsstratege
+        in München. Er entwickelt Produkte, Systeme und strategische Innovationsansätze
+        für Unternehmen, Start-ups und nachhaltige Entwicklungsvorhaben.
       </p>
 
-      <address class="footer-contact" style="font-style: normal;">
-        <a href="mailto:mk@mirkokiesel.com" rel="me">mk@mirkokiesel.com</a>
-        <div class="location">
-          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
-            <circle cx="12" cy="9" r="2.5"/>
-          </svg>
-          München, Deutschland
+      <div class="details fade d3">
+        <div>
+          <p class="detail-label">Schwerpunkte</p>
+          <p class="detail-text">Industrial Design, Product Strategy, User-Centered Innovation, Sustainable Systems, Venture Advisory.</p>
         </div>
-      </address>
-    </footer>
+        <div>
+          <p class="detail-label">Erfahrung</p>
+          <p class="detail-text">20+ Jahre mit globalen Marken, Gründerprojekten und interdisziplinären Beratungsmandaten in Consumer Electronics, Professional Goods, Mobility und Social Impact.</p>
+        </div>
+        <div>
+          <p class="detail-label">Referenzen</p>
+          <p class="detail-text">Vodafone, NEOMIND, IceStorage, Ziba, IDEO — von der Konzeptidee bis zur marktfähigen Umsetzung.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- ── Footer ── -->
+<footer class="fade d4">
+  <!-- Spacer aligns statement with headline column -->
+  <div class="footer-spacer" aria-hidden="true"></div>
+
+  <p class="footer-statement">
+    Verfügbar für ausgewählte Beratungs-,<br>
+    Innovations- und Designmandate.
+  </p>
+
+  <address class="footer-contact" style="font-style: normal;">
+    <a href="mailto:mk@mirkokiesel.com" rel="me">mk@mirkokiesel.com</a>
+    <div class="location">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+        <circle cx="12" cy="9" r="2.5"/>
+      </svg>
+      München, Deutschland
+    </div>
+  </address>
+</footer>
+```
 
   </div>
 </body>
